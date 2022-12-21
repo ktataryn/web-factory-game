@@ -1,0 +1,32 @@
+{
+    "name": "web-factory-game",
+    "description": "A 2D, Factorio-like game that runs in your web browser.",
+    "version": "0.0.0",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "author": {
+        "name": "G'lek Tarssza",
+        "email": "glek@glektarssza.com",
+        "url": "http://glektarssza.com"
+    },
+    "keywords": [
+        "game",
+        "web",
+        "2d",
+        "canvas",
+        "html5",
+        "automation",
+        "factory"
+    ],
+    "homepage": "https://glektarssza.github.io/web-factory-game",
+    "bugs": {
+        "url": "https://github.com/glektarssza/web-factory-game/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/glektarssza/web-factory-game.git"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
