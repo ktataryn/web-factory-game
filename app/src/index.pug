@@ -2,9 +2,14 @@ doctype html
 html(lang='en')
     head
         meta(charset='UTF-8')
-        //- TODO: Fill in other metadata
+        meta(name='application-name' content='Web Factory Game')
+        meta(name='author' content='G\'lek Tarssza <glek@glektarssza.com>')
+        meta(name='description' content='A 2D, Factorio-like game that runs in your web browser.')
+        meta(name='keywords' content='web,game,clone,canvas,html5,2d,factory,automation')
+        meta(name='generator' content='Webpack')
+        meta(name='robots' content='index,nofollow,noarchive')
         title Web Factory Game
-        link(rel="stylesheet", href=require('./scss/index.scss'))
-        script(module src=require('./ts/index.ts'))
+        link(rel='stylesheet' href=require('./scss/index.scss'))
+        script(src=require('./ts/index.ts'))
     body
         canvas#gameCanvas
