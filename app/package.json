@@ -27,6 +27,7 @@
         "url": "https://github.com/glektarssza/web-factory-game.git"
     },
     "scripts": {},
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+        "typescript": "^4.9.4"
+    }
 }
