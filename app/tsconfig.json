@@ -40,6 +40,9 @@
         "suppressExcessPropertyErrors": false,
         "suppressImplicitAnyIndexErrors": false,
         "target": "ES2018",
+        "types": [
+            "node"
+        ],
         "useDefineForClassFields": true,
         "useUnknownInCatchVariables": true
     },
