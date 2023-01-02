@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '30 9 * * 3'
+    - cron: "44 10 * * 5"
 jobs:
   analyze:
     name: Analyze
@@ -25,17 +25,17 @@ jobs:
       - id: checkout
         name: Checkout
         uses: actions/checkout@v3
-      - id: init_codeql
+      - id: initialize-codeql
         name: Initialize CodeQL
         uses: github/codeql-action/init@v2
         with:
-          languages: ${{matrix.language}}
-          queries: security-extended,security-and-quality
+          languages: ${{ matrix.language }}
+          queries: security-and-quality
       - id: autobuild
         name: Autobuild
         uses: github/codeql-action/autobuild@v2
-      - id: perform_analysis
+      - id: perform-analysis
         name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
         with:
-          category: '/language:${{matrix.language}}'
+          category: "/language:${{matrix.language}}"
