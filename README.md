@@ -6,7 +6,13 @@ A 2D, Factorio-like game that runs in your web browser.
 ## Table of Contents ##
 
 * [Web Factory Game](#web-factory-game)
+    * [Notes](#notes)
     * [License](#license)
+
+## Notes ##
+
+Original project was hosted at [glektarssza/web-factory-game](https://github.com/glektarssza/web-factory-game)
+but has since been abandoned.
 
 ## License ##
 
